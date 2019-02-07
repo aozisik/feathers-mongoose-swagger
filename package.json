@@ -1,0 +1,16 @@
+{
+  "name": "feathers-mongoose-swagger",
+  "version": "0.0.1",
+  "description": "Show your mongoose schema in swagger when using Feathers Mongoose",
+  "main": "lib/index.js",
+  "repository": "https://github.com/aozisik/feathers-mongoose-swagger",
+  "author": "Ahmet Ozisik",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose-to-swagger": "^0.0.4"
+  },
+  "peerDependencies": {
+    "feathers-mongoose": "*",
+    "feathers-swagger": "*"
+  }
+}
